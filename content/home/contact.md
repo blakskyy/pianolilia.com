@@ -6,7 +6,11 @@ active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
 title = "Contact"
-subtitle = ""
+subtitle = """
+<span style='color:#666;'>For **Last Minute/Same Day Cancellations ONLY, call:</span>
+<span style='color:#990000;'>(562) 234-9142**</span>
+<span style='color:#666;'>and leave a message.</span>
+"""
 
 # Automatically link email and phone?
 autolink = true
