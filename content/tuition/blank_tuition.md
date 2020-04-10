@@ -8,12 +8,15 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "**Tuition**"
+title = ""
 subtitle = """
 <p style="color: #313131;"><strong>My current fees are:</strong><br />
 <strong>$80.00</strong> per hour for a <strong>60 minute</strong> lesson<br />
 <strong>$60.00</strong> per hour for a <strong>45 minute</strong> lesson<br />
 <strong>$40.00</strong> per hour for a <strong>30 minute</strong> lesson</p>
+
+_<p style="color: #313131; font-size: medium;">Acceptable forms of payment are: Cash, Check, Zelle, PayPal, and Venmo.</p>_
+_<p style="color: #313131; font-size: medium;">There will be a $25 charge added to all returned Checks.</p>_
 """
 
 [design]
@@ -55,16 +58,27 @@ subtitle = """
  css_class = ""
 +++
 
-I believe strongly that the best, deepest, and most lasting work is achieved with 2 lessons of 45 minutes each week.
+I believe strongly that the best, deepest, and most lasting work is achieved with **2 lessons** of **45 minutes** each week.
 
-If you are constrained by your budget or time, please consider taking a one hour lesson every week.
+If you are constrained by your budget or time, please consider taking a **one hour** lesson every week.
 
 A weekly lesson of 30 minutes is the minimum I will teach. Anything less than this will not allow for satisfactory progress.
 
-There are two types of payment. Monthly Tuition (paid in advance) and Point of Service (upon completion of the lesson).
+There are two types of payment: 
 
-Monthly Tuition and must be paid on or by the first scheduled lesson of each month, whereas a Point of Service payments are due after the completion of the lesson.  (Please see “Terms & Conditions /Canceling a lesson” for additional information.) Acceptable forms of payment are Cash or Personal Check. There will be a $20 charge added to all returned Checks.
+<table>
+  <tr>
+    <td><strong>Monthly Tuition (paid in advance)</strong></td>
+    <td>Monthly Tuition and must be paid on or by the first scheduled lesson of each month</td>
+  </tr>
+  <tr>
+    <td><strong>Point of Service (upon completion of the lesson)</strong></td>
+    <td>Point of Service payments are due upon completion of the lesson</td>
+  </tr>
+</table>
 
-Please be advised …. When paying Point of Service, your time slot is NOT guaranteed. Your lesson appointment time can be preempted by another student, who desires that time slot, if they will be paying Monthly Tuition in advance.
+_<span style="font-size: small;">(Please see [Terms & Conditions /Canceling a lesson](/terms) for additional information.)</span>_
 
-For Charter Schools …. I can arrange to for invoicing.
+Please be advised: When paying Point of Service, your time slot is NOT guaranteed. Your lesson appointment time can be preempted by another student, who desires that time slot, if they will be paying Monthly Tuition in advance.
+
+**For Charter Schools**: I can arrange for invoicing.
