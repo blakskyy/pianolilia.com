@@ -11,9 +11,9 @@ weight = 15  # Order that this section will appear.
 title = ""
 subtitle = """
 <p style="color: #313131;"><strong>My current fees are:</strong><br />
-<strong>$80.00</strong> per hour for a <strong>60 minute</strong> lesson<br />
-<strong>$60.00</strong> per hour for a <strong>45 minute</strong> lesson<br />
-<strong>$40.00</strong> per hour for a <strong>30 minute</strong> lesson</p>
+<strong>$90</strong> for a <strong>60</strong> minute lesson<br />
+<strong>$67</strong> for a <strong>45</strong> minute lesson<br />
+<strong>$45</strong> for a <strong>30</strong> minute lesson<br />
 
 _<p style="color: #313131; font-size: medium;">Acceptable forms of payment are: Cash, Check, Zelle, PayPal, and Venmo.</p>_
 _<p style="color: #313131; font-size: medium;">There will be a $25 charge added to all returned Checks.</p>_

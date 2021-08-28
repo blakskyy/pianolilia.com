@@ -34,7 +34,7 @@ Nothing can substitute for early age; even a one-year delay makes a huge differe
 
 The piano is an experience-based activity; the earlier you start, the more time your child will have to get comfortable with the instrument. The earlier you start, the more “natural” playing will feel to your child. The more “natural” the feel … the more “natural” the music will sound.
 
-4. **PRACTIVE, PRACTICE, PRACTICE AND MORE PRACTICE**
+4. **PRACTICE, PRACTICE, PRACTICE AND MORE PRACTICE**
 
 Unfortunately, practice is necessary. Like anything worthwhile , the more you put into it, the more you will get out of it. However, this does not mean you need to practice 6 hours a day. 30 minutes of correct practice (focused and deliberate concentration) to learn a specific technique or pattern is more important than 2 hours of incorrect practice. (Which is wasted time and reinforcing bad technique.)
 
