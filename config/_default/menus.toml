@@ -39,6 +39,11 @@
   weight = 70
 
 [[main]]
+  name = "Medal of Honor"
+  url = "medal-of-honor/"
+  weight = 75
+
+[[main]]
   name = "Contact"
   url = "#contact"
   weight = 80
