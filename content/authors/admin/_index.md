@@ -64,7 +64,7 @@ email: ""
 
 At the age of 16, Lilia qualified to attend the “Kuznetsk Music Specialty College” where she studied piano under Marina Mamikonova and Vera Gusarova. Although the Piano was her major instrument, many other musical subjects like: Concert Master, Harmony, Piano Ensemble, Methods of Teaching Piano, Chamber Ensemble, Instrument Studies and Analysis of Musical Composition were also completed. During her 4-year study program Lilia performed in numerous recitals and public performances. She graduated equivalents of a High School Diploma and an “Associate of Arts” degree.
 
-Upon her graduation, Lilia took a teaching position at the“Children’s Musical School of Sursk.” Although teaching children was very rewarding, after 3-years, Lilia decided to pursue her own personal goals of obtaining an advanced degree in piano and music.
+Upon her graduation, Lilia took a teaching position at the "Children’s Musical School of Sursk." Although teaching children was very rewarding, after 3-years, Lilia decided to pursue her own personal goals of obtaining an advanced degree in piano and music.
 
 Attending the prestigious “A.I. Herzen State University” in Saint Petersburg, Russia, Lilia studied the Piano under the direction of Dr. Tatiana Samsonova and Harmony under the direction of Dr. Galina Abdulina. Many advanced subjects included in her studies: Harmony, Polyphony, History & Theory of Music Education, Chorus, Choir Practicum, Musical Art, Concert Master, and the History of Music. While attending A.I. Herzen State University Lilia performed in many concerts and recitals as part of her educational experience.
 
@@ -74,6 +74,6 @@ Lilia is a member of MTAC (Music Teachers Association of California), ACM (Ameri
 
 With her extensive experience and education background, Lilia is very capable of teaching your child to play the piano while also providing a well-rounded musical education.
 
-Programs and competitions available to her students: Certificate of Merit, Southern California Junior Bach Festival (SCJBF), Piano Guild, Southwestern Music Youth Festival (SMYF), Sonata/Sonatina Festival, Long Beach Motzart Festival, and numerous recitals.
+Programs and competitions available to her students: Certificate of Merit, Southern California Junior Bach Festival (SCJBF), Piano Guild, Southwestern Music Youth Festival (SMYF), Sonata/Sonatina Festival, Long Beach Mozart Festival, and numerous recitals.
 
 Lilia was born, raised and educated in Russia and now resides with her husband and teaches piano to many local students in the Long Beach, California area.

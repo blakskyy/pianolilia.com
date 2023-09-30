@@ -1,18 +1,13 @@
-+++
-widget = "blank"
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
-
-# ... Put Your Section Options Here (title etc.) ...
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
-
-+++
-
+---
+active: true
+design:
+  columns: '1'
+headless: true
+weight: 30
+widget: blank
+---
 ## ADVICE FOR BEGINNERS
+
 {{< figure library="true" src="close-up-photo-of-person-playing-piano.jpg" lightbox="false" class="practiceLeftHero" >}}
 
 1. **FIND A GOOD TEACHER**
@@ -26,7 +21,6 @@ Ideally, your child should have a nice instrument from day one. However, since n
 Before you decide to purchase, you should test pianos extensively before buying to figure out which brands you like and what you should pay for them. After the purchase, you will need to find a piano tuner to recalibrate the instrument twice a year and make repairs when necessary.
 
 That said, you should keep in mind that your child may eventually require a high-quality grand piano, preferably by age 10 if they are exceptionally talented, and you feel it would be worth the expense.
-
 
 3. **START EARLY - AGE FIVE OR YOUNGER**
 
@@ -59,7 +53,7 @@ You need to decide what type of piano experience you want your child to have. Th
 
 In the beginning, it’s best to make small, short-term goals. As your child advances, if concerts and competitions are part of your plan, you and your teacher need to choose the repertoire in advance. This process could even take place months or even a year before the event.
 
-8. **MAXIMIZE THE PERFORMING EXPERIANCE**
+8. **MAXIMIZE THE PERFORMING EXPERIENCE**
 
 One of the scariest aspects of playing piano is performing in recitals or concerts. Performing live scares the crap out of most people, so your child needs to learn to play for audiences. Starting early and performing often as possible will help desensitize your child. Performances also help your child by establishing deadlines. They need to do this … by that date. Your teacher should offer many opportunities for your child to perform. Make sure your child practices in the months/weeks preceding each performance. If your child works hard enough, they will be prepared. If they are prepared, they will be confident. If they are confident …. their performances will turn out to be very gratifying and with no mistakes.
 
@@ -71,10 +65,10 @@ Your child needs to see, from an early age, what good pianists are capable of. F
 
 Everybody needs to recharge and take an occasional break. For most students, this means summer. By “occasional,” I mean once a year, and by “break,” I mean practicing less than usual. Not stopping everything or going cold turkey. Their technique should deteriorate slightly, but the primary reason for the break is to give them a mental rest. Not a physical rest.
 
-{{% alert note %}}
+{{% callout note %}}
 **KNOW WHEN TO QUIT**
 
 This step isn’t part of the process. Although I have dedicated my life to teaching the piano, I do realize the piano is not for everyone. Learning the piano can be frustrating. Practicing is not fun for any young child. Children always want to quit. After all … they are children. They just do not know how much they will appreciate their ability when they will be adults. I’m talk about quitting when no amount of practice and instruction can overcome a lack of ability. If your child is musically untalented, you need to be able to recognize, accept it.
 
 Another reason to quit: if your child is at least 14 years old, has achieved a good level of proficiency, and still hates piano–not just verbally, because kids will complain about anything–but genuinely derives no joy from practicing or performing, you need to reconsider their lessons. Your child’s feelings will never improve. You will be wasting their time, the teacher's time, and your money.
-{{% /alert %}}
+{{% /callout %}}

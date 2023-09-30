@@ -1,19 +1,17 @@
-+++
-widget = "blank"
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear.
-
-# ... Put Your Section Options Here (title etc.) ...
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
-[design.spacing]
-  # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
-+++
-
+---
+active: true
+design:
+  columns: '1'
+  spacing:
+    padding:
+    - 20px
+    - '0'
+    - 20px
+    - '0'
+headless: true
+weight: 20
+widget: blank
+---
 For example:
 
 - Do you want good technique?
@@ -23,7 +21,7 @@ For example:
 - Do you want to learn how to play jazz?
 - Does your teacher have a lot of Jazz experience (either performing or by education)?
 
-By sharing with you my philosophy, you should be able to determine <i>“IF what I teach is a good fit for you.”</i>
+By sharing with you my philosophy, you should be able to determine <i>"IF what I teach is a good fit for you."</i>
 
 To me, music is a language like any other language. To master any language, you need to be able to read, speak, and understand the grammar of that language, in order to express yourself properly. To express yourself properly with the language of music, you need to be able to read music, to perform well, and have a knowledge of music theory, which is the equivalent of grammar.
 
