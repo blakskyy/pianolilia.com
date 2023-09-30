@@ -1,7 +1,6 @@
 {{/* Student Widget via People */}}
 
-{{/* Initialize */}}
-{{ $ := .root }}
+{{/* Get variables */}}
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $show_social := $block.Params.design.show_social | default false }}
@@ -15,19 +14,11 @@
 
 
 <div class="row justify-content-center people-widget">
-
-<!--  {{ with $page.Title }}
-  <div class="col-md-12 section-heading">
-    <h1>{{ . | markdownify | emojify }}</h1>
-    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
-  </div>
-  {{ end }} -->
-
-  {{ range $block.Params.content.user_groups }}
+  {{ range $block.content.user_groups }}
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
   {{if $query}}
   <div class="col-md-12 section-heading">
-    <h1>{{ . | markdownify | emojify }}</h1>
+    <h2>{{ . | markdownify | emojify }}</h2>
     <p>&nbsp;</p>
   </div>
   {{end}}

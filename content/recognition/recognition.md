@@ -34,11 +34,9 @@ subtitle: 'The Music Teachers’ Association of California® (MTAC) sponsors the
 
 
   Only those students who the take the CM exam and who''s test results place them
-  in the top 2%, are eligible to perform at the annual MTAC convention.
-
-  '
-title: Below are some of my studens who have participated in the MTAC throughout the
-  years as a result of their persistant hard work and dedication in reaching this
+  in the top 2%, are eligible to perform at the annual MTAC convention.'
+title: Below are some of my students who have participated in the MTAC throughout the
+  years as a result of their persistent hard work and dedication in reaching this
   high level recognition
 weight: 68
 widget: peoplenolink

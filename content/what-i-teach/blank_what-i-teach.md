@@ -21,7 +21,7 @@ For example:
 - Do you want to learn how to play jazz?
 - Does your teacher have a lot of Jazz experience (either performing or by education)?
 
-By sharing with you my philosophy, you should be able to determine <i>“IF what I teach is a good fit for you.”</i>
+By sharing with you my philosophy, you should be able to determine <i>"IF what I teach is a good fit for you."</i>
 
 To me, music is a language like any other language. To master any language, you need to be able to read, speak, and understand the grammar of that language, in order to express yourself properly. To express yourself properly with the language of music, you need to be able to read music, to perform well, and have a knowledge of music theory, which is the equivalent of grammar.
 

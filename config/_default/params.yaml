@@ -8,7 +8,7 @@
 appearance:
   theme_day: piano
   font: minimal
-  font_size: M
+  font_size: L
 
 # SEO
 
@@ -20,7 +20,7 @@ marketing:
     description: 'Private Piano Lessons in Long Beach for students of any level. The standard piano curriculum taught is based on the proficiency levels set by the California Music Teachers Association. Music Theory, Piano Technique, and Performance Coaching.'
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-JCFE3FRKPG'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
@@ -87,13 +87,13 @@ features:
       repo_id: ''
       category: ''
       category_id: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
+  # search:
+  #   provider: wowchemy
+  #   algolia:
+  #     app_id: ''
+  #     api_key: ''
+  #     index_name: ''
+  #     show_logo: false
   map:
     provider: ''
     api_key: ''

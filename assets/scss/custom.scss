@@ -1,13 +1,13 @@
 // On the practice page, the second image. Keeps it from being too big and lets it be on the left of the text.
 .practiceLeftHero {
-	max-width: 600px;
+  max-width: 600px;
 	float: left;
 	padding-right: 50px;
 }
 
 // Make Special Reconization student pictures square instead of circle.
 .square_avatar .avatar-circle {
-    border-radius: 0%;
+  border-radius: 0%;
 }
 
 // Hides studends when screen isn't wide enough. Too much scrolling on mobile.
@@ -15,4 +15,4 @@
 	#students {
 		display: none;
 	}
-  }
+}

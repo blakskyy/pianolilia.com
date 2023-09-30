@@ -31,7 +31,7 @@ In the beginning of your practice, warm up your fingers by playing scales, chord
 
 * **If you use the damper pedal,** make sure you can still hear the original composer's chords and clear melodic line. Some students forget to release the pedal!
 
-* **Understanding of style and specific details** of the pieces you are working on require some knowledge of the time, epoque, and biography. Read some books on music, musicians, and music history - it will help you to understand the music that you are playing.
+* **Understanding of style and specific details** of the pieces you are working on require some knowledge of the time, époque, and biography. Read some books on music, musicians, and music history - it will help you to understand the music that you are playing.
 
 {{% callout warning %}}
 Listening to classical music CD's may help you, but please ask for my recommendations - listening to a poor performer may do you more harm than good!
