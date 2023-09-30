@@ -1,17 +1,11 @@
-+++
-widget = "blank"
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
-
-# ... Put Your Section Options Here (title etc.) ...
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
-
-+++
-
+---
+active: true
+design:
+  columns: '1'
+headless: true
+weight: 30
+widget: blank
+---
 ## ADVICE FOR BEGINNERS
 
 {{< figure library="true" src="close-up-photo-of-person-playing-piano.jpg" lightbox="false" class="practiceLeftHero" >}}

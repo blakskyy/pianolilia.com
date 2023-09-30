@@ -1,68 +1,36 @@
-+++
-# Hero widget.
-widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
-
-title = "PRIVATE LESSONS. EXCELLENT INSTRUCTION."
-
-# Hero image (optional). Enter filename of an image in the `assets/media/` folder.
-hero_media = ""
-
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-
-  # Background color.
-  # color = "navy"
-
-  # Background gradient.
-  gradient_start = "#4bb4e3"
-  gradient_end = "#2b94c3"
-
-  # Background image.
-   image = "hero-bg.jpg"  # Name of image in `assets/media/`.
-   image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
-   image_position = "center"  # Options include `left`, `center` (default), or `right`.
-   image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
-
-  # Text color (true=light or false=dark).
-  text_color_light = true
-
-[design.spacing]
-  # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["150px", "0", "150px", "0"]
-
-# Call to action links (optional).
-#   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
-#   Remove a link/note by deleting a cta/note block.
-
-[cta]
-  url = "#contact"
-  label = "Schedule Lesson"
-  icon_pack = "fas"
-  icon = "calendar-alt"
-
-#[cta_alt]
-#  url = ""
-#  label = "View Documentation"
-
-# Note. An optional note to show underneath the links.
-[cta_note]
-  label = "All Ages & Skill Levels"
-
-[advanced]
- # Custom CSS.
- css_style = ""
-
- # CSS class.
- css_class = ""
-
-+++
-
+---
+active: true
+advanced:
+  css_class: ''
+  css_style: ''
+cta:
+  icon: calendar-alt
+  icon_pack: fas
+  label: Schedule Lesson
+  url: '#contact'
+cta_note:
+  label: All Ages & Skill Levels
+design:
+  background:
+    gradient_end: '#2b94c3'
+    gradient_start: '#4bb4e3'
+    image: hero-bg.jpg
+    image_darken: 0.5
+    image_parallax: true
+    image_position: center
+    image_size: cover
+    text_color_light: true
+  spacing:
+    padding:
+    - 150px
+    - '0'
+    - 150px
+    - '0'
+headless: true
+hero_media: ''
+title: PRIVATE LESSONS. EXCELLENT INSTRUCTION.
+weight: 10
+widget: hero
+---
 _<p>Long Beach, CA</p>_
 <p>Individual lessons designed to achieve progress at each student’s personal achievement level.</p>

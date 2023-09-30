@@ -1,19 +1,17 @@
-+++
-widget = "blank"
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear.
-
-# ... Put Your Section Options Here (title etc.) ...
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
-[design.spacing]
-  # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
-+++
-
+---
+active: true
+design:
+  columns: '1'
+  spacing:
+    padding:
+    - 20px
+    - '0'
+    - 20px
+    - '0'
+headless: true
+weight: 20
+widget: blank
+---
 For example:
 
 - Do you want good technique?
