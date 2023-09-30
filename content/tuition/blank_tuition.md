@@ -1,5 +1,18 @@
 ---
+widget: "blank"
+headless: true
 active: true
+weight:  15
+title: ' '
+subtitle: >-
+  <strong style="color:#313131">My current fees are:</strong><br />
+  <strong style="color:#313131">$90</strong> for a <strong style="color:#313131">60</strong> minute lesson<br />
+  <strong style="color:#313131">$67</strong> for a <strong style="color:#313131">45</strong> minute lesson<br />
+  <strong style="color:#313131">$45</strong> for a <strong style="color:#313131">30</strong> minute lesson<br />
+  _<p style="color: #313131; font-size: medium;">Acceptable forms of payment are:
+  Cash, Check, Zelle, PayPal, and Venmo.</p>_
+  _<p style="color: #313131; font-size: medium;">There will be a $25 charge added
+  to all returned Checks.</p>_
 advanced:
   css_class: ''
   css_style: ''
@@ -17,26 +30,6 @@ design:
     - '0'
     - 20px
     - '0'
-headless: true
-subtitle: '<p style="color:
-
-  <strong>$90</strong> for a <strong>60</strong> minute lesson<br />
-
-  <strong>$67</strong> for a <strong>45</strong> minute lesson<br />
-
-  <strong>$45</strong> for a <strong>30</strong> minute lesson<br />
-
-
-  _<p style="color: #313131; font-size: medium;">Acceptable forms of payment are:
-  Cash, Check, Zelle, PayPal, and Venmo.</p>_
-
-  _<p style="color: #313131; font-size: medium;">There will be a $25 charge added
-  to all returned Checks.</p>_
-
-  '
-title: ''
-weight: 15
-widget: blank
 ---
 I believe strongly that the best, deepest, and most lasting work is achieved with **2 lessons** of **45 minutes** each week.
 
