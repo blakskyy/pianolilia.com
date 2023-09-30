@@ -1,26 +1,39 @@
 {{/* People Widget NO LINK */}}
 
-{{/* Initialise */}}
+{{/* Get variables */}}
 {{ $ := .root }}
-{{ $page := .page }}
-{{ $show_social := $page.Params.design.show_social | default false }}
-{{ $show_interests := $page.Params.design.show_interests | default true }}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $show_social := $block.Params.design.show_social | default false }}
+{{ $show_interests := $block.Params.design.show_interests | default true }}
+{{ $path := "" }}
+  {{ with .File }}
+        {{ $path = .Path }}
+  {{ else }}
+        {{ $path = .Path }}
+  {{ end }}
+
+
+{{/* Add your block layout below */}}
+{{/* Styles can be added to the SCSS file */}}
+{{/* Access custom front matter options via $block.Params  */}}
+{{/* E.g. mytext via $block.Params.mytext */}}
 
 <div class="row justify-content-center people-widget">
-  {{ with $page.Title }}
+  {{ with $block.Title }}
   <div class="col-md-12 section-heading">
     <h1>{{ . | markdownify | emojify }}</h1>
-    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+    {{ if $block.Params.subtitle }}<p>{{ $block.Params.subtitle | markdownify | emojify }}</p>{{ end }}
   </div>
   {{ end }}
 
-  {{ with $page.Content }}
+  {{ with $block.Content }}
   <div class="col-md-12">
     {{ . }}
   </div>
   {{ end }}
 
-  {{ range $page.Params.content.user_groups }}
+  {{ range $block.Params.content.user_groups }}
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
 
   {{if $query}}
@@ -33,7 +46,7 @@
   {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   {{/* Get link to user's profile page. */}}
   {{ $link := "" }}
-  {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
+  {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split $path).Dir)) }}
     {{ $link = .RelPermalink }}
   {{ end }}
   <div class="col-12 col-sm-auto people-person">

@@ -2,9 +2,16 @@
 
 {{/* Initialize */}}
 {{ $ := .root }}
-{{ $page := .page }}
-{{ $show_social := $page.Params.design.show_social | default false }}
-{{ $show_interests := $page.Params.design.show_interests | default false }}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $show_social := $block.Params.design.show_social | default false }}
+{{ $show_interests := $block.Params.design.show_interests | default true }}
+{{ $path := "" }}
+  {{ with .File }}
+        {{ $path = .Path }}
+  {{ else }}
+        {{ $path = .Path }}
+  {{ end }}
 
 
 <div class="row justify-content-center people-widget">
@@ -16,7 +23,7 @@
   </div>
   {{ end }} -->
 
-  {{ range $page.Params.content.user_groups }}
+  {{ range $block.Params.content.user_groups }}
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
   {{if $query}}
   <div class="col-md-12 section-heading">
@@ -25,7 +32,7 @@
   </div>
   {{end}}
 
-  {{ with $page.Content }}
+  {{ with $block.Content }}
   <div class="col-md-12">
     {{ . }}
   </div>
@@ -35,7 +42,7 @@
   {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   {{/* Get link to user's profile page. */}}
   {{ $link := "" }}
-  {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
+  {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split $path).Dir)) }}
     {{ $link = .RelPermalink }}
   {{ end }}
   <div class="col-12 col-sm-auto people-person">
