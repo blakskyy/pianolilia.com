@@ -1,24 +1,40 @@
-+++
-# Contact widget.
-widget = "contact"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 130  # Order that this section will appear.
+---
+widget: contact
+headless: true
 
-title = "Contact"
-subtitle = """
-<span style='color:#666;'>For **Last Minute/Same Day Cancellations ONLY, call:</span>
+# Put Your Section Options Here (title, background, etc.) ...
+title: Contact
+subtitle: "<span style='color:#666;'>For **Last Minute/Same Day Cancellations ONLY, call:</span>
 <span style='color:#990000;'>(562) 234-9142**</span>
-<span style='color:#666;'>and leave a message.</span>
-"""
+<span style='color:#666;'>and leave a message.</span>"
+weight: 130
 
-# Automatically link email and phone?
-autolink = true
+content:
+  # Automatically link email and phone or display as text?
+  autolink: true
 
-# Email form provider
-#   0: Disable email form
-#   1: Netlify (requires that the site is hosted by Netlify)
-#   2: formspree.io
-email_form = 2
-+++
+  # Email form provider
+  form:
+    provider: netlify
+    formspree:
+      id:
+    netlify:
+      # Enable CAPTCHA challenge to reduce spam?
+      captcha: false
 
+  # Contact details (edit or remove options as required)
+  # email: lilia.pershina@gmail.com
+  phone: (562) 433-4759
+  address:
+    street:
+    city: Long Beach
+    region: CA
+    postcode: 90803
+    country: United States
+    country_code: US
+  # appointment_url: 'https://calendly.com'
+
+design:
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: '2'
+---

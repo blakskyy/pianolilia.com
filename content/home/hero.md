@@ -7,7 +7,7 @@ weight = 10  # Order that this section will appear.
 
 title = "PRIVATE LESSONS. EXCELLENT INSTRUCTION."
 
-# Hero image (optional). Enter filename of an image in the `static/img/` folder.
+# Hero image (optional). Enter filename of an image in the `assets/media/` folder.
 hero_media = ""
 
 [design.background]
@@ -18,18 +18,18 @@ hero_media = ""
 
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   gradient_start = "#4bb4e3"
   gradient_end = "#2b94c3"
-  
+
   # Background image.
-   image = "hero-bg.jpg"  # Name of image in `static/img/`.
+   image = "hero-bg.jpg"  # Name of image in `assets/media/`.
    image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
    image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
    image_position = "center"  # Options include `left`, `center` (default), or `right`.
    image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
-  
+
   # Text color (true=light or false=dark).
   text_color_light = true
 
@@ -46,7 +46,7 @@ hero_media = ""
   label = "Schedule Lesson"
   icon_pack = "fas"
   icon = "calendar-alt"
-  
+
 #[cta_alt]
 #  url = ""
 #  label = "View Documentation"
@@ -56,9 +56,9 @@ hero_media = ""
   label = "All Ages & Skill Levels"
 
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
- 
+
  # CSS class.
  css_class = ""
 

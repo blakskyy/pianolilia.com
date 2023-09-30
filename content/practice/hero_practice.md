@@ -1,13 +1,13 @@
 +++
 # Hero widget.
-widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "hero"
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 title = ""
 
-# Hero image (optional). Enter filename of an image in the `static/img/` folder.
+# Hero image (optional). Enter filename of an image in the `assets/media/` folder.
 hero_media = "back-view-of-man-playing-grand-piano.jpg"
 
 [design.background]
@@ -18,13 +18,13 @@ hero_media = "back-view-of-man-playing-grand-piano.jpg"
 
   # Background color.
   #color = "#eeeeee"
-  
+
   # Background gradient.
   # gradient_start = "#e52d27"
   # gradient_end = "#b31217"
-  
+
   # Background image.
-  # image = ""  # Name of image in `static/img/`.
+  # image = ""  # Name of image in `static/media/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
@@ -36,7 +36,7 @@ hero_media = "back-view-of-man-playing-grand-piano.jpg"
 [btn]
   url = "/authors/admin"
   label = "Know more"
-  
+
 [btn_alt]
   url = "#contact"
   label = "Contact me"
@@ -48,4 +48,4 @@ hero_media = "back-view-of-man-playing-grand-piano.jpg"
 
 ## Practice recommendations for my students
 
-* **Practice daily (at least 4-5 days per week) for 15-60 minutes or more** depending upon your age and level of advancement. Remember, it is **better** to have 30 minutes of _correct_ practice, than 60 minutes of _incorrect_ practice. 
+* **Practice daily (at least 4-5 days per week) for 15-60 minutes or more** depending upon your age and level of advancement. Remember, it is **better** to have 30 minutes of _correct_ practice, than 60 minutes of _incorrect_ practice.

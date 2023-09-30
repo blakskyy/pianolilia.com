@@ -1,19 +1,18 @@
-+++
-widget = "blank"
-headless = true
-active = true
-weight = 10
-title = "Terms and Conditions"
-subtitle = """
-<img src="/img/piano-player-reading-music.jpg" >
-"""
-+++
+---
+widget: "blank"
+headless: true
+active: true
+weight:  10
+title: Terms and Conditions
+subtitle: >-
+  ![](piano-player-reading-music.jpg)
+---
 
 ### What you can Expect
 
-During your lesson, you will have my full and undivided attention. We will work together at your own pace to unlock your musical potential. I do not deal in sarcasm, put downs, or hidden agendas. I’m serious about my art and hope to instill some of that dedication to my students through my teaching!    
+During your lesson, you will have my full and undivided attention. We will work together at your own pace to unlock your musical potential. I do not deal in sarcasm, put downs, or hidden agendas. I’m serious about my art and hope to instill some of that dedication to my students through my teaching!
 
-### Attendance 
+### Attendance
 
 Regularity and consistency are important to your piano playing progress.
 

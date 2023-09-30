@@ -1,3 +1,7 @@
+{{/* Display copyright license. */}}
+{{ $copyright_license := .Params.copyright.license | default site.Params.footer.copyright.license }}
+{{ $notice := .Params.copyright.notice | default site.Params.footer.copyright.notice }}
+
 <footer class="site-footer">
   {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
   <p class="powered-by">
@@ -11,12 +15,10 @@
   </p>
   {{ end }}
 
-  <p class="powered-by">
-    {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} {{ end }}
-
-   <!-- &middot; Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>. -->
+  <p class="powered-by copyright-license-text">
+    {{ with $notice }}
+      {{ replace . "{year}" now.Year | markdownify }}
+    {{ end }}
 
     {{ if not (in (slice "docs" "updates") .Type) }}
     <span class="float-right" aria-hidden="true">

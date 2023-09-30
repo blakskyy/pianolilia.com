@@ -31,13 +31,13 @@ _<p style="color: #313131; font-size: medium;">There will be a $25 charge added 
 
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
-  
+
   # Background image.
-  image = "sheet_music_light.jpg"  # Name of image in `static/img/`.
+  image = "sheet_music_light.jpg"  # Name of image in `assets/media/`.
   #image_darken = 0.1  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
@@ -51,9 +51,9 @@ _<p style="color: #313131; font-size: medium;">There will be a $25 charge added 
   padding = ["20px", "0", "20px", "0"]
 
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
- 
+
  # CSS class.
  css_class = ""
 +++
@@ -64,7 +64,7 @@ If you are constrained by your budget or time, please consider taking a **one ho
 
 A weekly lesson of 30 minutes is the minimum I will teach. Anything less than this will not allow for satisfactory progress.
 
-There are two types of payment: 
+There are two types of payment:
 
 <table>
   <tr>
