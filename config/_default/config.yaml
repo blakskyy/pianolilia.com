@@ -38,11 +38,9 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/talk/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
 disableAliases: true
+disableKinds: ['taxonomy']
+ignoreErrors: ['error-disable-taxonomy']
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
@@ -71,5 +69,6 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+  changeFreq: ""
 minify:
   _merge: deep
