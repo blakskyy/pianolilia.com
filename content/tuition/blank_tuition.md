@@ -18,7 +18,7 @@ advanced:
   css_style: ''
 design:
   background:
-    image: sheet_music_light.jpg
+    image: sheet_music_light.webp
     image_parallax: true
     image_position: center
     image_size: cover

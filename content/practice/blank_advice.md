@@ -8,7 +8,7 @@ widget: blank
 ---
 ## ADVICE FOR BEGINNERS
 
-{{< figure library="true" src="close-up-photo-of-person-playing-piano.jpg" lightbox="false" class="practiceLeftHero" >}}
+{{< figure library="true" src="close-up-photo-of-person-playing-piano.webp" lightbox="false" class="practiceLeftHero" >}}
 
 1. **FIND A GOOD TEACHER**
 

@@ -5,7 +5,7 @@ active: true
 weight:  10
 title: Terms and Conditions
 subtitle: >-
-  ![](piano-player-reading-music.jpg)
+  ![](piano-player-reading-music.webp)
 ---
 
 ### What you can Expect

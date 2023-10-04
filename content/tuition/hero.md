@@ -2,7 +2,7 @@
 active: true
 design:
   background:
-    image: music-pages.jpg
+    image: music-pages.webp
     image_darken: 0.3
     image_parallax: true
     image_position: right

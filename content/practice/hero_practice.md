@@ -2,7 +2,7 @@
 active: true
 btn:
   label: Know more
-  url: /authors/admin
+  url: /authors/lilia_pershina
 btn_alt:
   label: Contact me
   url: '#contact'
@@ -12,7 +12,7 @@ design:
   background:
     text_color_light: false
 headless: true
-hero_media: back-view-of-man-playing-grand-piano.jpg
+hero_media: back-view-of-man-playing-grand-piano.webp
 title: ''
 weight: 10
 widget: hero

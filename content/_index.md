@@ -24,7 +24,7 @@ sections:
         gradient_start: '#4bb4e3'
         text_color_light: true
         image:
-          filename: hero-bg.jpg
+          filename: hero-bg.webp
           filters:
             brightness: 0.5
           parallax: true
@@ -78,7 +78,7 @@ sections:
     design:
       background:
         image:
-          filename: piano-keys.jpg
+          filename: piano-keys.webp
           parallax: true
           position: center
           size: cover

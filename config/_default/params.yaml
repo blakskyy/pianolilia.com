@@ -16,17 +16,17 @@ marketing:
   seo:
     site_type: LocalBusiness
     local_business_type: 'ProfessionalService'
-    org_name: ''
-    description: 'Private Piano Lessons in Long Beach for students of any level. The standard piano curriculum taught is based on the proficiency levels set by the California Music Teachers Association. Music Theory, Piano Technique, and Performance Coaching.'
-    twitter: ''
+    # org_name: ''
+    description: 'Private Piano Lessons in Long Beach for students of any level. The standard piano curriculum taught is based on the proficiency levels set by the California Music Teachers Association.'
+    # twitter: ''
   analytics:
     google_analytics: 'G-JCFE3FRKPG'
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
-  verification:
-    google: ''
-    baidu: ''
+    # google_tag_manager: ''
+    # baidu_tongji: ''
+    # microsoft_clarity: ''
+  # verification:
+  #   google: ''
+  #   baidu: ''
 
 # Site header
 
@@ -43,12 +43,13 @@ header:
 # Site footer
 
 footer:
+  block: minimal
   copyright:
     notice: '© {year} Lilia Pershina'
     license:
       enable: true
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
@@ -62,31 +63,18 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_light: github-light
-    theme_dark: dracula
+    enable: false
   math:
     enable: false
   privacy_pack:
     enable: false
-  repository:
-    url: 'https://github.com/blakskyy/pianolilia.com'
-    content_dir: content
-    branch: master
+  # repository:
+  #   url: 'https://github.com/blakskyy/pianolilia.com'
+  #   content_dir: content
+  #   branch: master
   avatar:
     gravatar: false
     shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
   # search:
   #   provider: wowchemy
   #   algolia:
@@ -103,13 +91,12 @@ features:
 
 extensions:
   cms:
-    branch: master
-    local_backend: false
+    enable: false
   academicons:
-    enable: true
+    enable: false
 
 # Security
 
 security:
   # Allow frame for embedding speaker notes in slides
-  allow_frame: true
+  allow_frame: false

@@ -1,6 +1,6 @@
 ---
 active: true
-author: admin
+author: lilia_pershina
 headless: true
 title: Biography
 weight: 20

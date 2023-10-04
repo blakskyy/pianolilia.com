@@ -1,10 +1,11 @@
 ---
 # Display name
 name: Lilia Pershina
+private: false
 
 # Username (this should match the folder name)
 authors:
-- admin
+- lilia_pershina
 
 # Is this the primary user of the site?
 superuser: true
