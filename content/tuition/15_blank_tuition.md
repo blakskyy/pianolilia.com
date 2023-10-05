@@ -3,22 +3,21 @@ widget: "blank"
 headless: true
 active: true
 weight:  15
-title: ' '
-subtitle: >-
+subtitle: |-
   <strong style="color:#313131">My current fees are:</strong><br />
   <strong style="color:#313131">$90</strong> for a <strong style="color:#313131">60</strong> minute lesson<br />
   <strong style="color:#313131">$67</strong> for a <strong style="color:#313131">45</strong> minute lesson<br />
   <strong style="color:#313131">$45</strong> for a <strong style="color:#313131">30</strong> minute lesson<br />
-  _<p style="color: #313131; font-size: medium;">Acceptable forms of payment are:
-  Cash, Check, Zelle, PayPal, and Venmo.</p>_
-  _<p style="color: #313131; font-size: medium;">There will be a $25 charge added
-  to all returned Checks.</p>_
+  <p style="color: #313131; font-size: medium;"><em>Acceptable forms of payment are:
+  Cash, Check, Zelle, PayPal, and Venmo.</em></p>
+  <p style="color: #313131; font-size: medium;"><em>There will be a $25 charge added
+  to all returned Checks.</em></p>
 advanced:
   css_class: ''
   css_style: ''
 design:
   background:
-    image: sheet_music_light.webp
+    image: sheet-music-light.webp
     image_parallax: true
     image_position: center
     image_size: cover

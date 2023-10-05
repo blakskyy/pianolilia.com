@@ -5,14 +5,21 @@
 	padding-right: 50px;
 }
 
-// Make Special Reconization student pictures square instead of circle.
+// Make Special Recognition student pictures square instead of circle.
 .square_avatar .avatar-circle {
   border-radius: 0%;
 }
 
-// Hides studends when screen isn't wide enough. Too much scrolling on mobile.
+// Hides students when screen isn't wide enough. Too much scrolling on mobile.
 @media only screen and (max-width: 576px) {
 	#students {
 		display: none;
 	}
+}
+
+// Hides branding on desktop view
+@media (min-width: 992px) {
+  .d-lg-inline-flex {
+      display: none !important;
+  }
 }
