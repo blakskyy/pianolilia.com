@@ -21,7 +21,7 @@ sections:
           id:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          captcha: true
 
       # Contact details (edit or remove options as required)
       # email: lilia.pershina@gmail.com
