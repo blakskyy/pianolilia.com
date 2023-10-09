@@ -16,7 +16,7 @@
   {{ partial "functions/parse_theme" . }}
 
   {{/*  needed for recaptcha on form  */}}
-  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+  {{/*  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>  */}}
 
   {{/* Pre-connect to Google Fonts if the site's Font Theme uses them. */}}
   {{ with ($scr.Get "google_fonts") }}
@@ -31,7 +31,7 @@
       <link rel="preload" as="style" {{ printf "href=\"https://fonts.googleapis.com/css2?%s&display=swap\"" . | safeHTMLAttr }}>
       <link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css2?%s&display=swap\"" . | safeHTMLAttr }} media="print" onload="this.media='all'">
     {{ else }}
-      {{ errorf "There is a new version of Google Fonts. Learn how to upgrade your font pack at https://wowchemy.com/docs/customization/#custom-font" }}
+      {{ errorf "There is a new version of Google Fonts. Learn how to upgrade your font pack at https://university.wowchemy.com/getting-started/customization/#custom-font" }}
     {{ end }}
   {{ end }}
 

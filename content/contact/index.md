@@ -17,9 +17,9 @@ sections:
 
       # Email form provider
       form:
-        provider: netlify
-        netlify:
-          captcha: true # Enable CAPTCHA challenge to reduce spam?
+        provider: formspree
+        formspree:
+          id: 'lilia.pershina@gmail.com' # If using Formspree, enter your Formspree form ID
 
       # Contact details (edit or remove options as required)
       # email: lilia.pershina@gmail.com
