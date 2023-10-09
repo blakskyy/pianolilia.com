@@ -175,17 +175,15 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       title: Contact
-      subtitle: "<span style='color:#666;'>For **Last Minute/Same Day Cancellations ONLY:<br />Call</span>
-      <span style='color:#990000;'>(562) 234-9142**</span>
-      <span style='color:#666;'>and leave a message.</span>"
+      subtitle: |-
+        <span style='color:#666;'>For **Last Minute/Same Day Cancellations ONLY:<br />Call</span>
+        <span style='color:#990000;'>(562) 234-9142**</span>
+        <span style='color:#666;'>and leave a message.</span>
       # Email form provider
       form:
         provider: netlify
-        formspree:
-          id:
         netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          captcha: false # Enable CAPTCHA challenge to reduce spam?
 
       # Contact details (edit or remove options as required)
       # email: lilia.pershina@gmail.com

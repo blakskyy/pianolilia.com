@@ -131,7 +131,7 @@
   {{if $use_container}}<div class="container">{{end}}
 
   {{if $use_cols}}
-    {{ $hasTitleOrSubtitle := or $block.Title $block.Params.subtitle }}
+    {{ $hasTitleOrSubtitle := or $block.content.title $block.content.subtitle }}
     <div class="row{{ if not $hasTitleOrSubtitle | or (eq $columns '1') }} justify-content-center{{ end }}">
     {{ if $hasTitleOrSubtitle }}
       {{ if eq $columns "1" }}
