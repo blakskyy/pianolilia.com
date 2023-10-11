@@ -42,14 +42,13 @@ sections:
         gradient_start: '#ffffff'
     content:
       items:
-        - name: Individual Sessions
+        - name: Experienced Instructor
+          icon: chalkboard-teacher
+          icon_pack: fas
+          description: Lilia has years of experience teaching piano, ensuring you receive top-notch guidance. With years of teaching experience and a deep passion for music, she is dedicated to nurturing your piano skills. Her profound knowledge and commitment to your musical journey ensure that you receive the highest quality guidance. Whether you're a beginner eager to explore the world of piano or an advanced player seeking to refine your craft, she will inspire, mentor, and guide you towards achieving your musical aspirations with enthusiasm and skill.
+        - name: Private Lessons
           icon: user-friends
           icon_pack: fas
-          description: Individual lessons secessions are designed to achieve progress at each
-            student's personal achievement level. Although student standards and expectations
-            are set high, there is no failure. Successful results and further progress is
-            best achieved by having goals set a little further than our natural comfort level.
-        - name: Private Lessons
           description: Private lessons are available for students, both beginning and transfers
             from other teachers, of any age or level. Students will receive a weekly one-on-one
             lesson covering of all aspects of a piano/musical education. The lessons will
@@ -57,14 +56,11 @@ sections:
             student is different, the standard piano curriculum I teach is based on the proficiency
             levels set by the California Music Teachers Association. Each lesson is adapted
             to each individual student’s needs and musical aptitude.
-          icon: chalkboard-teacher
-          icon_pack: fas
         - name: Excellent Instruction
-          description: Excellent instruction the primary goal for each student. Piano is the
-            only musical instrument I teach and I do my very best to pass on my knowledge
-            and skills to your child to the best of my ability and patience.
           icon: graduation-cap
           icon_pack: fas
+          description: Excellent instruction the primary goal for each student. Piano is the
+            only musical instrument Lilia teaches. She tailors to piano lessons and ensures that you receive personalized guidance every step of the way. She believes that the key to outstanding instruction is a strong foundation, and shes committed to equipping you with the skills and knowledge necessary to become a proficient pianist. Whether you're starting your musical journey or looking to refine your technique, her commitment to excellence ensures that you'll receive the highest quality instruction, setting you on a path to musical mastery.
   - block: students
     content:
       title: Students
@@ -179,6 +175,7 @@ sections:
         <span style='color:#666;'>For **Last Minute/Same Day Cancellations ONLY:<br />Call</span>
         <span style='color:#990000;'>(562) 234-9142**</span>
         <span style='color:#666;'>and leave a message.</span>
+      text: Ready to take the first step towards becoming a pianist? Contact us today for the finest piano lessons in Long Beach.<br />We look forward to helping you achieve your musical goals!
       # Email form provider
       form:
         provider: formspree

@@ -15,12 +15,28 @@ appearance:
 marketing:
   seo:
     site_type: LocalBusiness
-    local_business_type: 'ProfessionalService'
+    local_business_type: ProfessionalService
     # org_name: ''
-    description: 'Private Piano Lessons in Long Beach for students of any level. The standard piano curriculum taught is based on the proficiency levels set by the California Music Teachers Association.'
-    # twitter: ''
+    alternateName: ["Lilia Pershina Piano Studio", "Long Beach Piano Lessons", "Piano Lessons in Long Beach", "Lilia Pershina"]
+    description: Discover the best piano lessons in Long Beach, CA with a highly skilled piano instructor. Enroll for beginner to advanced lessons.
+    phone: 562-433-4759
+    knowsLanguage:
+    coordinates:
+      latitude: 33.7621668
+      longitude: -118.1604354
+    address:
+      street: 3356 E 1st St D
+      city:  Long Beach
+      region: CA
+      postcode: 90803
+      country_code: US
+    openingHours: Mo,Tu,We,Th,Fr 12:00-21:00
+    paymentAccepted: Cash, Check, Zelle, PayPal, Venmo
+    keywords: "piano lessons, long beach, piano lessons long beach, private piano lessons, individual piano lessons, piano"
+    hasMap: https://www.google.com/maps?cid=640266995687620706
+    sameAs: ["https://www.yelp.com/biz/lilia-pershina-piano-studio-long-beach", "https://www.picklessons.com/213/lilia-pershina", "https://www.google.com/maps?cid=640266995687620706"]
   analytics:
-    google_analytics: 'G-JCFE3FRKPG'
+    google_analytics: G-JCFE3FRKPG
     # google_tag_manager: ''
     # baidu_tongji: ''
     # microsoft_clarity: ''
@@ -29,7 +45,6 @@ marketing:
   #   baidu: ''
 
 # Site header
-
 header:
   navbar:
     enable: true
