@@ -1,0 +1,33 @@
+{{- $data := .page.Params.seo -}}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": {{ $data.type | title }},
+    "url": {{ .page.Permalink }},
+    "name": {{ $data.name }},
+    {{ with $data.givenName -}}
+    "givenName": {{.}},
+    {{- end}}
+    {{ with $data.familyName -}}
+    "familyName": {{.}},
+    {{- end}}
+    {{ with $data.additionalName -}}
+    "additionalName": {{.}},
+    {{- end}}
+    {{ with $data.jobTitle -}}
+    "jobTitle": {{.}},
+    {{- end}}
+    {{ with $data.gender -}}
+    "gender": {{.}},
+    {{- end}}
+    {{ with $data.knowsLanguage -}}
+    "knowsLanguage": {{.}},
+    {{- end}}
+    {{ with $data.alumniOf -}}
+    "alumniOf": {{.}},
+    {{- end}}
+    {{ with $data.memberOf -}}
+    "memberOf": {{.}}
+    {{- end}}
+  }
+  </script>

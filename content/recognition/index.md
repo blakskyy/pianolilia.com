@@ -2,7 +2,6 @@
 type: landing
 title: Special Recognition
 
-
 sections:
   - block: peoplenolink
     id: special-recognition
