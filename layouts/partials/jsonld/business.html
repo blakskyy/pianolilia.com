@@ -8,6 +8,9 @@
   {{ with site.Params.marketing.seo.alternateName -}}
   "alternateName": {{.}},
   {{- end}}
+  {{ with site.Params.marketing.seo.priceRange -}}
+  "priceRange": {{.}},
+  {{- end}}
   "description": {{ site.Params.marketing.seo.description }},
   "logo": {{ partial "functions/get_logo_url" . }},
   {{- with $sharing_image -}}"image": {{.Permalink}},{{- end}}

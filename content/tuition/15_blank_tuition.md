@@ -49,7 +49,7 @@ There are two types of payment:
   </tr>
 </table>
 
-_<span style="font-size: small;">(Please see [Terms & Conditions /Canceling a lesson](/terms) for additional information.)</span>_
+_<span style="font-size: small;">(Please see [Terms & Conditions / Canceling a lesson](/terms) for additional information.)</span>_
 
 Please be advised: When paying Point of Service, your time slot is NOT guaranteed. Your lesson appointment time can be preempted by another student, who desires that time slot, if they will be paying Monthly Tuition in advance.
 
