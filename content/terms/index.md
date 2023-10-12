@@ -1,3 +1,4 @@
 ---
-type: "widget_page"  # Page type is a Widget Page
+title: Terms and Conditions
+type: widget_page
 ---
