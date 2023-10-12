@@ -4,10 +4,10 @@
 
 {{- if $page.IsHome -}}
 
-  {{ partialCached "jsonld/website.html" $page }}
-
   {{ if ne $site_type "Person" }}
     {{ partial "jsonld/business.html" $page }}
+  {{ else}}
+    {{ partialCached "jsonld/website.html" $page }}
   {{ end }}
 
 {{- else if $page.IsPage -}}

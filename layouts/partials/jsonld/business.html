@@ -8,6 +8,13 @@
   {{ with site.Params.marketing.seo.alternateName -}}
   "alternateName": {{.}},
   {{- end}}
+  "founder": {
+    "@type": "Person",
+    "@id": "{{site.BaseURL}}bio/",
+    "url": "{{site.BaseURL}}bio/",
+    "name": "Lilia Pershina",
+    "alternateName": "Lilia Kotoff"
+  },
   {{ with site.Params.marketing.seo.priceRange -}}
   "priceRange": {{.}},
   {{- end}}
