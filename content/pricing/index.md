@@ -12,14 +12,19 @@ sections:
         <p>Find the right lesson plan for you or your child</p>
         <section class="pricing pt-1 pb-3">
           <div class="container">
-            <div class="row">
+            <div class="row" itemprop="aggregateOffer" itemscope itemtype="http://schema.org/AggregateOffer">
+              <meta itemprop="priceCurrency" content="USD" />
+              <meta itemprop="highPrice" content="90" />
+              <meta itemprop="lowPrice" content="45" />
+              <meta itemprop="offerCount" content="3" />
               <div class="col-12 col-md-12 col-xl-4 mt-xl-4">
                 <div class="card mb-5 mb-lg-2">
-                  <div class="card-body">
-                    <h5 class="card-title text-muted text-uppercase text-center">
-                      30-Minute Private Piano Lesson
+                  <div class="card-body" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <meta itemprop="isFamilyFriendly" content="True" />
+                    <h5 class="card-title text-muted text-uppercase text-center" itemprop="itemOffered" itemscope itemtype="https://schema.org/Service">
+                      <span itemprop="name">30-Minute Private Piano Lesson</span>
                     </h5>
-                    <h6 class="card-price text-center">
+                    <h6 class="card-price text-center" itemprop="price" content="45">
                       $45<span class="period">/lesson</span>
                     </h6>
                     <hr />
@@ -32,11 +37,12 @@ sections:
               </div>
               <div class="col-12 col-md-12 col-xl-4">
                 <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-muted text-uppercase text-center">
-                      45-Minute Private Piano Lesson
+                  <div class="card-body" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <meta itemprop="isFamilyFriendly" content="True" />
+                    <h5 class="card-title text-muted text-uppercase text-center" itemprop="itemOffered" itemscope itemtype="https://schema.org/Service">
+                      <span itemprop="name">45-Minute Private Piano Lesson</span>
                     </h5>
-                    <h6 class="card-price text-center">
+                    <h6 class="card-price text-center" itemprop="price" content="67">
                       $67<span class="period">/lesson</span>
                     </h6>
                     <div class="font-weight-bold text-center">⚡️Most Popular⚡️</div>
@@ -52,11 +58,12 @@ sections:
               </div>
               <div class="col-12 col-md-12 col-xl-4 mt-xl-4">
                 <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-muted text-uppercase text-center">
-                      60-Minute Private Piano Lesson
+                  <div class="card-body" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <meta itemprop="isFamilyFriendly" content="True" />
+                    <h5 class="card-title text-muted text-uppercase text-center" itemprop="itemOffered" itemscope itemtype="https://schema.org/Service">
+                      <span itemprop="name">60-Minute Private Piano Lesson</span>
                     </h5>
-                    <h6 class="card-price text-center">
+                    <h6 class="card-price text-center" itemprop="price" content="90">
                       $90<span class="period">/lesson</span>
                     </h6>
                     <hr />
@@ -70,7 +77,7 @@ sections:
                     </a>
                   </div>
                 </div>
-              </div>
+                </div>
             </div>
           </div>
         </section>
