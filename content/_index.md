@@ -61,6 +61,9 @@ sections:
           icon_pack: fas
           description: Excellent instruction the primary goal for each student. Piano is the
             only musical instrument Lilia teaches. She tailors to piano lessons and ensures that you receive personalized guidance every step of the way. She believes that the key to outstanding instruction is a strong foundation, and shes committed to equipping you with the skills and knowledge necessary to become a proficient pianist. Whether you're starting your musical journey or looking to refine your technique, her commitment to excellence ensures that you'll receive the highest quality instruction, setting you on a path to musical mastery.
+  - block: reviews
+    content:
+      limit: 3
   - block: students
     content:
       title: Students

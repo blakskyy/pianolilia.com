@@ -23,3 +23,12 @@
       display: none !important;
   }
 }
+
+@media (min-width: 768px) {
+  .review-columns {
+    column-count: 2;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+  }
+}

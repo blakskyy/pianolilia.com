@@ -24,6 +24,15 @@ marketing:
     coordinates:
       latitude: 33.7621668
       longitude: -118.1604354
+    areaServed: {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.7621668,
+        "longitude": -118.1604354
+      },
+      "geoRadius": 8000
+    }
     address:
       street: 3356 E 1st St D
       city:  Long Beach
@@ -35,6 +44,113 @@ marketing:
     keywords: "piano lessons, long beach, piano lessons long beach, private piano lessons, individual piano lessons, piano"
     hasMap: https://www.google.com/maps?cid=640266995687620706
     sameAs: ["https://www.yelp.com/biz/lilia-pershina-piano-studio-long-beach", "https://www.picklessons.com/213/lilia-pershina", "https://www.google.com/maps?cid=640266995687620706"]
+    aggregateRating:
+      "@type": "AggregateRating"
+      "ratingValue": "5"
+      "reviewCount": "10"
+    review:
+    - author: Julie Weinstein
+      datePublished: 2021-11-02
+      url: https://www.yelp.com/biz/lilia-pershina-piano-studio-long-beach?hrid=93UdVOn1CIocsCtMhpbuWA
+      reviewBody: I feel lucky to have found Lilia on my first try after moving during the pandemic from NY to CA. As an adult piano student, she has helped me towards my goals of having nice pieces to perform on demand, expanding my limited knowledge of theory and just appreciating my time practicing. She uses direct instruction, workbooks and has shared some very useful videos of both performances and practice techniques. Her studio is in a lovely, private location and all of her dealings are very professional. She works with you on makeups and vacations. Overall, she is my dream piano teacher!
+      reviewRating: {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5",
+        "worstRating": "1"
+      }
+    - author: Emily S.
+      datePublished: 2020-07-19
+      url: https://www.yelp.com/biz/lilia-pershina-piano-studio-long-beach?hrid=1KDINtN33CiP82wFGXWCpA
+      reviewBody: We have been sending our daughter to Lilia for more than six months. She's very professional and well-schooled in teaching piano for all ages and all skill levels. She effectively teaches in a way that is strict, supportive, and encouraging. Couldn't have asked for a better teacher for her. Thank you for the job well done!
+      reviewRating: {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5",
+        "worstRating": "1"
+      }
+    - author: Su E.
+      datePublished: 2018-09-18
+      url: https://www.yelp.com/biz/lilia-pershina-piano-studio-long-beach?hrid=mxqGE8V_NHvtcPd32b2Phg
+      reviewBody: Lilia is my child's first piano teacher. She is amazing on all fronts. She has a passion for technique and theory and makes it fun to learn. She's a passionate teacher with a big heart. I highly recommend her to anyone!sss
+      reviewRating: {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5",
+        "worstRating": "1"
+      }
+    - author: Dee Orellana
+      datePublished: 2018-09-11
+      url: https://www.yelp.com/biz/lilia-pershina-piano-studio-long-beach?hrid=-izxKRPyTNj6iTxiHEasxA
+      reviewBody: My son just began lessons with Mrs. Lilia and he has learned so much in these couple of months that in a whole year with a previous teacher. Plus Mrs. Lilia is such a sweet lady and her studio is so clean and beautiful. Highly recommend.
+      reviewRating: {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5",
+        "worstRating": "1"
+      }
+    - author: Paola Martin
+      datePublished: 2021-06-09
+      url: https://www.picklessons.com/213/lilia-pershina
+      reviewBody: Mrs Lilia is a fantastic classical piano teacher. I took lessons for about 2 months as an adult student before the pandemic. In that short amount of time she was able to teach me how to read and undertsand sheet music and play to a metronome. I learned more with her in those two months than I was able to teach myself with online courses in over year. Highly recommend!
+      reviewRating: {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5",
+        "worstRating": "1"
+      }
+    - author: Heidi Johnson
+      datePublished: 2021-06-07
+      url: https://www.picklessons.com/213/lilia-pershina
+      reviewBody: With Lilia's knowledge, experience, and attention to technique and detail, it's been amazing to watch how quickly my two children have progressed. She is wonderful in all aspects, and has a true gift for teaching the piano.
+      reviewRating: {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5",
+        "worstRating": "1"
+      }
+    - author: Susanna Smith
+      datePublished: 2020-11-06
+      url: https://www.picklessons.com/213/lilia-pershina
+      reviewBody: We have been sending our daughter to Lilia for more than six months. She's very professional and well-schooled in teaching piano for all ages and all skill levels. She effectively teaches in a way that is strict, supportive, and encouraging. Couldn't have asked for a better teacher for her. Thank you for the job well done!
+      reviewRating: {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5",
+        "worstRating": "1"
+      }
+    - author: Dao Nong
+      datePublished: 2019-04-05
+      url: https://www.picklessons.com/213/lilia-pershina
+      reviewBody: Mrs. Lilia Pershina is the most dedicated piano teacher I have seen. We are so lucky to have found her since last year. She has been very patient and consistent in correcting my son's old bad habits from previous years. My son loves learning with her and has been impressed with her piano technical skills that she demonstrated to him in every lesson until he can do it. He also loves to practice more. She is a great teacher that pushes her students to the best of their abilities.
+      reviewRating: {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5",
+        "worstRating": "1"
+      }
+    - author: Su Erickson
+      datePublished: 2019-01-18
+      url: https://www.picklessons.com/213/lilia-pershina
+      reviewBody: I highly recommend Lilia for piano lessons. She focuses on technique and theory and takes an interest in her students and implements that into her lessons with them. She is extremely talented and caring.
+      reviewRating: {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5",
+        "worstRating": "1"
+      }
+    - author: Gina Joseph
+      datePublished: 2018-01-15
+      url: https://www.picklessons.com/213/lilia-pershina
+      reviewBody: Ms. Lilia is an excellent teacher and knows exactly how to help her piano students learn and improve quickly. My daughter has learned so much in the 8 months she's been coming.
+      reviewRating: {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5",
+        "worstRating": "1"
+      }
+
+
   analytics:
     google_analytics: G-JCFE3FRKPG
     # google_tag_manager: ''

@@ -1,0 +1,46 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $limit := $block.content.limit | default (site.Params.marketing.seo.review | len) }}
+{{ $starColor := $block.design.color | default "#FFC62F" }}
+{{ $reviews := sort site.Params.marketing.seo.review "datePublished" "desc" }}
+
+{{- if $page.IsHome -}}<h2>{{- else -}}<h1>{{- end -}}
+{{ $block.content.title | default "Reviews" }}
+{{- if $page.IsHome -}}</h2>{{- else -}}</h1>{{- end -}}
+
+<div class="col-12">
+<div class="review-columns">
+{{ range first $limit $reviews }}
+{{ $ratingValue := int .reviewRating.ratingValue }}
+{{ $bestRating := int .reviewRating.bestRating }}
+{{ $ratingDiff := sub $bestRating $ratingValue }}
+<div class="card" itemscope itemtype="http://schema.org/Review">
+  <meta itemprop="datePublished" content="{{ .datePublished }}">
+  <meta itemprop="url" content="{{ .url }}">
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    <meta itemprop="ratingValue" content="{{ .reviewRating.ratingValue }}">
+    <meta itemprop="bestRating" content="{{ .reviewRating.bestRating }}">
+    <meta itemprop="worstRating" content="{{ .reviewRating.worstRating }}">
+  </span>
+  <div class="card-body">
+    <span class="card-rating" style="color: {{$starColor}};">
+      {{- range $num := (seq $ratingValue) -}}
+      <i class="fas fa-star"></i>
+      {{- end -}}
+      {{- range $num := (seq $ratingDiff) -}}
+      <i class="far fa-star"></i>
+      {{- end -}}
+    </span>
+    <p class="card-text mb-0 pb-1">
+      <span style="font-weight:700;color:#00d1b2;font-size:2rem;line-height:1">“</span>
+      <span itemprop="description">{{ .reviewBody }}</span>
+      <span style="font-weight:700;color:#00d1b2;font-size:2rem;line-height:1;position:absolute">”</span>
+    </p>
+    <div>
+      &mdash; <span itemprop="author" style="font-weight:700">{{ .author }}</span>
+    </div>
+  </div>
+</div>
+{{ end }}
+</div>
+</div>

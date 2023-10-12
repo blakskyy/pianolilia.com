@@ -1,7 +1,6 @@
 ---
 # Display name
 name: Lilia Pershina
-private: false
 title: Lilia Pershina
 
 # Username (this should match the folder name)
