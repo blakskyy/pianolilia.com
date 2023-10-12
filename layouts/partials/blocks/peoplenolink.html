@@ -1,11 +1,10 @@
 {{/* People Widget NO LINK */}}
 
 {{/* Get variables */}}
-{{ $ := .root }}
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
-{{ $show_social := $block.Params.design.show_social | default false }}
-{{ $show_interests := $block.Params.design.show_interests | default true }}
+{{ $show_social := $block.design.show_social | default false }}
+{{ $show_interests := $block.design.show_interests | default true }}
 {{ $path := "" }}
   {{ with .File }}
         {{ $path = .Path }}
@@ -20,22 +19,22 @@
 {{/* E.g. mytext via $block.Params.mytext */}}
 
 <div class="row justify-content-center people-widget">
-  {{ with $block.Title }}
+  {{ with $block.title }}
   <div class="col-md-12 section-heading">
     <h1>{{ . | markdownify | emojify }}</h1>
-    {{ if $block.Params.subtitle }}<p>{{ $block.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+    {{ if $block.subtitle }}<p>{{ $block.subtitle | markdownify | emojify }}</p>{{ end }}
   </div>
   {{ end }}
 
-  {{ with $block.Content }}
+  {{ with $block.text }}
   <div class="col-md-12">
     {{ . }}
   </div>
   {{ end }}
 
-  {{ range $block.Params.content.user_groups }}
+  {{ range $block.content.user_groups }}
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
-  {{ $queryLen := len $block.Params.content.user_groups }}
+  {{ $queryLen := len $block.content.user_groups }}
 
   {{if (and ($query) (gt $queryLen 1))}}
   <div class="col-md-12">
