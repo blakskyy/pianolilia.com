@@ -1,6 +1,7 @@
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $limit := $block.content.limit | default (site.Params.marketing.seo.review | len) }}
+{{ $rich_schema := $block.content.rich_schema | default true }}
 {{ $starColor := $block.design.color | default "#FFC62F" }}
 {{ $reviews := sort site.Params.marketing.seo.review "datePublished" "desc" }}
 
@@ -14,15 +15,19 @@
 {{ $ratingValue := int .reviewRating.ratingValue }}
 {{ $bestRating := int .reviewRating.bestRating }}
 {{ $ratingDiff := sub $bestRating $ratingValue }}
-<div class="card" itemscope itemtype="http://schema.org/Review">
+<div class="card"{{- if $rich_schema -}} itemscope itemtype="http://schema.org/Review"{{- end -}}>
   <meta itemprop="datePublished" content="{{ .datePublished }}">
+  {{- if $rich_schema -}}
   <meta itemprop="itemReviewed" content="{{ .itemReviewed }}">
+  {{- end -}}
   <meta itemprop="url" content="{{ .url }}">
-  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+  {{- if $rich_schema -}}
+  <meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
     <meta itemprop="ratingValue" content="{{ .reviewRating.ratingValue }}">
     <meta itemprop="bestRating" content="{{ .reviewRating.bestRating }}">
     <meta itemprop="worstRating" content="{{ .reviewRating.worstRating }}">
-  </span>
+  </meta>
+  {{- end -}}
   <span itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="{{ .author.name }}">
   </span>

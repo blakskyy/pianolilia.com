@@ -64,6 +64,7 @@ sections:
   - block: reviews
     content:
       limit: 3
+      rich_schema: false
   - block: students
     content:
       title: Students
