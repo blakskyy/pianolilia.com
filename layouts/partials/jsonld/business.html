@@ -19,7 +19,7 @@
   "priceRange": {{.}},
   {{- end}}
   "description": {{ site.Params.marketing.seo.description }},
-  "logo": {{ partial "functions/get_logo_url" . }},
+  "logo": {{ partial "wowchemy-core/functions/get_logo_url" . }},
   {{- with $sharing_image -}}"image": {{.Permalink}},{{- end}}
   {{ if (eq site.Params.marketing.seo.site_type "LocalBusiness") | and site.Params.marketing.seo.coordinates -}}
   "geo": {
